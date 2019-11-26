@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1574776217 source:d:\devt\formationc\myshop_er\myshop_er\src\computer.cpp
+	"Computer.h"
+
+1574776444 d:\devt\formationc\myshop_er\myshop_er\include\computer.h
+	<Product.h>
+
+1574776302 d:\devt\formationc\myshop_er\myshop_er\include\product.h
+	<iostream>
+
+1574775771 source:d:\devt\formationc\myshop_er\myshop_er\src\product.cpp
+	"Product.h"
+
+1574776682 source:d:\devt\formationc\myshop_er\myshop_er\src\washingmachine.cpp
+	"washingMachine.h"
+
+1574777030 d:\devt\formationc\myshop_er\myshop_er\include\washingmachine.h
+	<Product.h>
+
+1574776788 source:d:\devt\formationc\myshop_er\myshop_er\src\freezer.cpp
+	"Freezer.h"
+
+1574776903 d:\devt\formationc\myshop_er\myshop_er\include\freezer.h
+	<Product.h>
+
