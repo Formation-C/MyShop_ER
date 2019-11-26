@@ -9,3 +9,8 @@ Computer::~Computer()
 {
     //dtor
 }
+
+void Computer::turnOnOff()
+{
+    cout << "Called Turn On Off on computer class" << endl;
+}

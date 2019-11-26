@@ -15,7 +15,7 @@ class Product
         //method
         Product();
         virtual ~Product();
-        void turnOnOff();
+        virtual void turnOnOff() = 0; //Pour définir une classe abstraite (une classe non instantiable)
 
     protected:
 

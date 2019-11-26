@@ -13,6 +13,7 @@ class washingMachine : public Product
         washingMachine();
         virtual ~washingMachine();
 
+        void turnOnOff();
         void executeProgram(int programId);
     protected:
 

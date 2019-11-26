@@ -14,6 +14,7 @@ class Freezer : public Product
         Freezer();
         virtual ~Freezer();
 
+        void turnOnOff();
         void controlTemperature();
     protected:
 
