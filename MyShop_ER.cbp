@@ -38,7 +38,9 @@
 		<Unit filename="include/Computer.h" />
 		<Unit filename="include/Employee.h" />
 		<Unit filename="include/Freezer.h" />
+		<Unit filename="include/Handler.h" />
 		<Unit filename="include/Product.h" />
+		<Unit filename="include/Salesmen.h" />
 		<Unit filename="include/Shelf.h" />
 		<Unit filename="include/washingMachine.h" />
 		<Unit filename="main.cpp" />
@@ -46,7 +48,9 @@
 		<Unit filename="src/Computer.cpp" />
 		<Unit filename="src/Employee.cpp" />
 		<Unit filename="src/Freezer.cpp" />
+		<Unit filename="src/Handler.cpp" />
 		<Unit filename="src/Product.cpp" />
+		<Unit filename="src/Salesmen.cpp" />
 		<Unit filename="src/Shelf.cpp" />
 		<Unit filename="src/washingMachine.cpp" />
 		<Extensions>

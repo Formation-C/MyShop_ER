@@ -1,29 +1,31 @@
 # depslib dependency file v1.0
-1574778986 source:d:\devt\formationc\myshop_er\myshop_er\src\computer.cpp
+1574782358 source:d:\devt\formationc\myshop_er\myshop_er\src\computer.cpp
 	"Computer.h"
 
-1574778783 d:\devt\formationc\myshop_er\myshop_er\include\computer.h
+1574783088 d:\devt\formationc\myshop_er\myshop_er\include\computer.h
 	<Product.h>
 
-1574779179 d:\devt\formationc\myshop_er\myshop_er\include\product.h
+1574781921 d:\devt\formationc\myshop_er\myshop_er\include\product.h
 	<iostream>
+	"brand.h"
+	"shelf.h"
 
-1574775771 source:d:\devt\formationc\myshop_er\myshop_er\src\product.cpp
+1574782825 source:d:\devt\formationc\myshop_er\myshop_er\src\product.cpp
 	"Product.h"
 
-1574779114 source:d:\devt\formationc\myshop_er\myshop_er\src\washingmachine.cpp
+1574782432 source:d:\devt\formationc\myshop_er\myshop_er\src\washingmachine.cpp
 	"washingMachine.h"
 
-1574778824 d:\devt\formationc\myshop_er\myshop_er\include\washingmachine.h
+1574783088 d:\devt\formationc\myshop_er\myshop_er\include\washingmachine.h
 	<Product.h>
 
-1574779114 source:d:\devt\formationc\myshop_er\myshop_er\src\freezer.cpp
+1574782432 source:d:\devt\formationc\myshop_er\myshop_er\src\freezer.cpp
 	"Freezer.h"
 
-1574778824 d:\devt\formationc\myshop_er\myshop_er\include\freezer.h
+1574783088 d:\devt\formationc\myshop_er\myshop_er\include\freezer.h
 	<Product.h>
 
-1574779089 source:d:\devt\formationc\myshop_er\myshop_er\main.cpp
+1574782887 source:d:\devt\formationc\myshop_er\myshop_er\main.cpp
 	<iostream>
 	<sstream>
 	"computer.h"
@@ -31,9 +33,10 @@
 	"freezer.h"
 	"brand.h"
 
-1574777300 d:\devt\formationc\myshop_er\myshop_er\include\brand.h
+1574781566 d:\devt\formationc\myshop_er\myshop_er\include\brand.h
 
-1574777227 source:d:\devt\formationc\myshop_er\myshop_er\src\brand.cpp
+1574781023 source:d:\devt\formationc\myshop_er\myshop_er\src\brand.cpp
+	<iostream>
 	"Brand.h"
 
 1574777327 source:d:\devt\formationc\myshop_er\myshop_er\src\shelf.cpp
@@ -41,8 +44,22 @@
 
 1574777349 d:\devt\formationc\myshop_er\myshop_er\include\shelf.h
 
-1574777379 source:d:\devt\formationc\myshop_er\myshop_er\src\employee.cpp
+1574781053 source:d:\devt\formationc\myshop_er\myshop_er\src\employee.cpp
+	<iostream>
 	"Employee.h"
 
-1574777449 d:\devt\formationc\myshop_er\myshop_er\include\employee.h
+1574781429 d:\devt\formationc\myshop_er\myshop_er\include\employee.h
+
+1574781125 source:d:\devt\formationc\myshop_er\myshop_er\src\handler.cpp
+	"Handler.h"
+
+1574781124 d:\devt\formationc\myshop_er\myshop_er\include\handler.h
+	<Employee.h>
+
+1574781621 source:d:\devt\formationc\myshop_er\myshop_er\src\salesmen.cpp
+	<iostream>
+	"Salesmen.h"
+
+1574781100 d:\devt\formationc\myshop_er\myshop_er\include\salesmen.h
+	<Employee.h>
 

@@ -6,13 +6,15 @@
 
 class Computer : public Product
 {
+    // On supprime le constructor et on utilise celui de Product
+    using Product :: Product;
     public:
         //properties
         int ram;
         int screenSize;
         bool isLaptop;
 
-        Computer();
+
         virtual ~Computer();
 
         void turnOnOff();

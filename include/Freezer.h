@@ -6,12 +6,13 @@
 
 class Freezer : public Product
 {
+   // On supprime le constructor et on utilise celui de Product
+    using Product :: Product;
     public:
         int capacity;
         bool hasIceBox;
         float temperature;
 
-        Freezer();
         virtual ~Freezer();
 
         void turnOnOff();

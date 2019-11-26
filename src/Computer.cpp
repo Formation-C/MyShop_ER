@@ -1,10 +1,7 @@
 #include "Computer.h"
 
-Computer::Computer()
-{
-    //ctor
-}
-
+// On a supprimer le constructor
+// On garde le destructor
 Computer::~Computer()
 {
     //dtor

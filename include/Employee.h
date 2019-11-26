@@ -2,11 +2,12 @@
 #define EMPLOYEE_H
 
 
+using namespace std;
 class Employee
 {
     public:
         int id;
-        //std::string name;
+        //string name;
         int age;
         int wages;
 

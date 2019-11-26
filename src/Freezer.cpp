@@ -1,10 +1,7 @@
 #include "Freezer.h"
 
-Freezer::Freezer()
-{
-    //ctor
-}
-
+// On a supprimer le constructor
+// On garde le destructor
 Freezer::~Freezer()
 {
     //dtor

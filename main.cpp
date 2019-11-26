@@ -10,21 +10,23 @@ using namespace std;
 void displayProduct (Product& _product)
 {
     cout << &_product << endl;
-    cout << "Computer model: " + _product.model << endl;
+    cout << "Computer model: " + _product.model << " Propriétaire: " << _product.brand->Getname() << endl;
 }
 
 int main()
 {
     stringstream ss;
+    Brand smallSoftBrand;
+    smallSoftBrand.name = "Carrier";
 
-    Computer myComputer;
-    washingMachine myWashingMachine;
-    Freezer myFreezer;
+    Computer myComputer (&smallSoftBrand);
+    washingMachine myWashingMachine (&smallSoftBrand);
+    Freezer myFreezer (&smallSoftBrand);
 
     myComputer.price = 64.11;
-    myComputer.model = "Dell E5470";
+    myComputer.model = "Dell E5470" ;
     ss << myComputer.price;
-    cout << "The price is: " + ss.str()  + " €"<< endl;
+    cout << "The price is: " + ss.str()  + " €" << endl;
 
     //Product myProduct;
 
