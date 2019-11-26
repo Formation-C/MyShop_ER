@@ -11,8 +11,8 @@ class Product
     public:
         //properties
         int  id;
-        float price;
         int _size;
+        float price;
         string model;
         Brand *brand;
         Shelf *shelf;

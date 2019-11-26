@@ -9,7 +9,7 @@ class Handler : public Employee
     public:
         Handler();
         virtual ~Handler();
-
+    void handle();
     protected:
 
     private:

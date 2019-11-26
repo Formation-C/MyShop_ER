@@ -10,6 +10,7 @@ class Salesmen : public Employee
         Salesmen();
         virtual ~Salesmen();
 
+    void sell();
     protected:
 
     private:
