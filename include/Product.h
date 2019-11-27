@@ -12,7 +12,6 @@ class Product
         //properties
         int  id;
         int _size;
-        float price;
         string model;
         Brand *brand;
         Shelf *shelf;
@@ -20,9 +19,11 @@ class Product
         Product(Brand* brand); // nous ne voulons pas de produit sans marque donsc on ajoute la réféerence
         virtual ~Product();
         virtual void turnOnOff() = 0; //Pour définir une classe abstraite (une classe non instantiable)
+        int GetPrice() { return price; }
+        void SetPrice(int val) { price = val; }
 
     protected:
-
+        float price;
     private:
 };
 
